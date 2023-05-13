@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/spinner.css" />
 
     <script src="js/main.js" defer></script>
+    <script src="js/speechToText.js" defer></script>
     <title>OpenAI Image Genrator</title>
   </head>
   <body>
@@ -33,7 +34,8 @@
         <form id="image-form">
           <h1>Describe An Image</h1>
           <div class="form-control">
-            <input type="text" id="prompt" placeholder="Enter Text" />
+            <input type="text" id="prompt" placeholder="Enter text or use the Speak button" />
+            <button id="speak">Speak</button>
           </div>
           <!-- size -->
           <div class="form-control">

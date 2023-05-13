@@ -98,6 +98,10 @@ form button:hover {
   transform: scale(1.1);
 }
 
+#speak {
+  background-color: rgb(4, 24, 136);
+}
+
 /* Image */
 
 .image {
